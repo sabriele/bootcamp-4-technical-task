@@ -1,0 +1,101 @@
+/*
+ * Globals
+ */
+body {
+  font-weight: 200;
+}
+
+/* Links */
+.welcome-link,
+.welcome-link:focus,
+.welcome-link:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.welcome-btn-default,
+.welcome-btn-default:hover,
+.welcome-btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  margin: 10px;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+
+.welcome-site-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(51, 51, 51, 0.7);
+  z-index: 10;
+  background-image: url("http://elitefon.ru/images/201211/elitefon.ru_15442.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome-site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.welcome-cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.welcome-inner {
+  padding: 30px;
+}
+
+/*
+ * Cover
+ */
+
+.welcome-cover {
+  padding: 0 20px;
+  color: white;
+}
+.welcome-cover .welcome-btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.welcome-cover-heading {
+  font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Start the vertical centering */
+  .welcome-site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .welcome-masthead,
+  .welcome-mastfoot,
+  .welcome-cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .welcome-masthead,
+  .welcome-mastfoot,
+  .welcome-cover-container {
+    width: 700px;
+  }
+}
