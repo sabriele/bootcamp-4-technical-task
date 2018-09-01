@@ -15,4 +15,3 @@ You will now be able to view the app on http://localhost:3000.
 
 1
 2
-3
