@@ -12,3 +12,5 @@ After cloning the repository, run `npm install` in the
 Then, from the root directory, run `npm start` to launch both the client and server projects concurrently.
 
 You will now be able to view the app on http://localhost:3000.
+
+1
