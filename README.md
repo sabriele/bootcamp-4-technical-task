@@ -14,3 +14,5 @@ Then, from the root directory, run `npm start` to launch both the client and ser
 You will now be able to view the app on http://localhost:3000.
 
 1
+2
+3
