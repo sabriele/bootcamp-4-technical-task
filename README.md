@@ -1,6 +1,6 @@
 # React Todo List
 
-## Introduction2
+## Introduction
 A MERN-stack todo list able to Create, Read, Update and Delete.
 
 Submission for Technical Task component of TechLadies Bootcamp 4 (2018)
